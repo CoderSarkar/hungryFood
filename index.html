@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hungry Food Monster</title>
+  </head>
+  <body>
+    <!-- Creating Menubar  -->
+    <header class="pb-5 ">
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid ">
+                <a class="navbar-brand fw-bold" href="#"> <span class="textColor"> Hungry Monster</span> </a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item px-3">
+                      <a class="nav-link textColor" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link textColor" href="#">About</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link textColor" href="#">Recipes</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link textColor" href="#">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+      </div>
+  </header>
+
+<!--Food Search Field -->
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <input type="text" id="foodName" class="form-control"placeholder="Search your favorite food" >
+                    <button class="btn" type="button" id="searchFood"><span><i class="fas fa-search"></i></span> Search</button>
+                  </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+<!--Showing Error Message Here -->  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" id="errorMassage">
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+<!--About Food-->
+  <div class="container">
+   <div  class="row">
+    <div class="col-md-2"></div>
+     <div class="col-md-8 mb-5" id="foodDetails">
+      </div> 
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+
+<!-- search item-->
+    <div class="container" id="searchField">
+        <div id="foodType" class="row">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+    crossorigin="anonymous"></script>
+    <script src="hungryFood.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color:#56b38b;
+}
+.navbar{
+    background-color: #48f078bb;
+    margin-top: 20px;
+    border-radius: px;
+    box-shadow: 10px 10px 30px grey);
+}
+#searchFood{
+    background: #0d6a36;
+    color: #fff;
+    border: 0px;
+    outline: none;
+    font-size: 21px;
+}
+#foodName{
+    background-color: rgb(237, 208, 208);
+}
+#foodDetails li{
+    list-style: none;
+}
+#foodDetails h5{
+    color: #22ff90;
+}
+
+.textColor{
+    color:rgb(58, 58, 55) !important;
+    font-weight: 800 !important;
+    font-size: 20px !important;
+}
+#errorMassage{
+    background-color: rgb(51, 36, 36);
+    color:#ff223f;
+    font-weight: 800;
+}
